@@ -9,6 +9,7 @@ inherit:
   - google-fonts
   - gridifier
   - modulifier
+  - modulifier-buttons
   - typografier
   - css-order-modules-grid-type-main
   - forms
