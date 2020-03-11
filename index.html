@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Contact form</title>
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+
+  <section class="contact pad-t-2 pad-b-2 max-length">
+    <div class="">
+      <h1>Want to go to mars?</h1>
+      <hr>
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <h2>Personal Details</h2>
+      <hr>
+      <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+        <div class="push">
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+        </div>
+        <div class="push">
+          <label for="age">Age</label>
+          <input id="age" name="age" required>
+        </div>
+        <div class="push">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="me@me.com" name="email" required>
+        </div>
+        <div class="push">
+          <label for="fitness">Physical Fitness</label>
+          <select id="fitness" name="_fitness">
+            <option>Super Human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
+        <div class="push">
+          <label for="address">Address</label>
+          <textarea id="address" name="address" required></textarea>
+        </div>
+        <h2>Mission Statement</h2>
+        <hr>
+        <div class="push">
+          <label for="address">Address</label>
+          <textarea id="address" name="address" required></textarea>
+        </div>
+        <div>
+          <button class="btn btn-dark mega" type="submit">Register for the trip!</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
