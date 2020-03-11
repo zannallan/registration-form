@@ -1,9 +1,9 @@
 html {
   background-color: #f2f2f2;
-  font-family: "Open-Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-.contact {
+.registration {
   background-color: #fff;
 }
 
@@ -11,22 +11,22 @@ h1 {
   border-bottom: 1px solid #000;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 960em) {
 
-.name {
-  padding-right: .5rem;
-}
+  .name {
+    padding-right: .5rem;
+  }
 
-.age {
-  padding-left: .5rem;
-}
+  .age {
+    padding-left: .5rem;
+  }
 
-.email {
-  padding-right: .5rem;
-}
+  .email {
+    padding-right: .5rem;
+  }
 
-.fit {
-  padding-left: .5rem;
-}
+  .fit {
+    padding-left: .5rem;
+  }
 
 }
